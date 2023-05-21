@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:snake/blank_pixel.dart';
 import 'package:snake/food_pixel.dart';
@@ -18,6 +20,18 @@ class _HomePageState extends State<HomePage> {
   List<int> snakePos = [0, 1, 2];
   //food position
   int foodPos = 55;
+  //start game
+  void startGame() {
+    Timer.periodic(Duration(milliseconds: 200), (timer) {
+      setState(() {
+        //add a new head
+        snakePos.add(snakePos.last + 1);
+
+        //remove the tail
+        snakePos.remove(0);
+      });
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -51,7 +65,15 @@ class _HomePageState extends State<HomePage> {
           ),
           //playbtn
           Expanded(
-            child: Container(),
+            child: Container(
+              child: Center(
+                child: MaterialButton(
+                  onPressed: startGame,
+                  child: Text("Jugar"),
+                  color: Colors.pink,
+                ),
+              ),
+            ),
           ),
         ],
       ),
