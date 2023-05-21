@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:snake/blank_pixel.dart';
@@ -27,8 +28,18 @@ class _HomePageState extends State<HomePage> {
   //start game
   void startGame() {
     Timer.periodic(Duration(milliseconds: 200), (timer) {
-      setState(() {});
+      setState(() {
+        moveSnake();
+        eatFood();
+      });
     });
+  }
+
+  void eatFood() {
+    //making sure the food is not where the snake is
+    while (snakePos.contains(foodPos)) {
+      foodPos = Random().nextInt(totalNumberOfSquares);
+    }
   }
 
   void moveSnake() {
@@ -42,9 +53,6 @@ class _HomePageState extends State<HomePage> {
           } else {
             snakePos.add(snakePos.last + 1);
           }
-
-          //remove tail
-          snakePos.removeAt(0);
         }
       case snake_Direction.LEFT:
         {
@@ -55,8 +63,6 @@ class _HomePageState extends State<HomePage> {
           } else {
             snakePos.add(snakePos.last - 1);
           }
-          //remove tail
-          snakePos.removeAt(0);
         }
       case snake_Direction.UP:
         {
@@ -66,8 +72,6 @@ class _HomePageState extends State<HomePage> {
           } else {
             snakePos.add(snakePos.last - rowSize);
           }
-          //remove tail
-          snakePos.removeAt(0);
         }
       case snake_Direction.DOWN:
         {
@@ -77,12 +81,16 @@ class _HomePageState extends State<HomePage> {
           } else {
             snakePos.add(snakePos.last + rowSize);
           }
-          //remove tail
-          snakePos.removeAt(0);
         }
 
         break;
       default:
+    }
+    if (snakePos.last == foodPos) {
+      eatFood();
+    } else {
+      //remove tail
+      snakePos.removeAt(0);
     }
   }
 
