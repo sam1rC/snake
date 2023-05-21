@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:snake/blank_pixel.dart';
+import 'package:snake/food_pixel.dart';
 import 'package:snake/snake_pixel.dart';
 
 class HomePage extends StatefulWidget {
@@ -15,6 +16,8 @@ class _HomePageState extends State<HomePage> {
   int totalNumberOfSquares = 100;
   //snake position
   List<int> snakePos = [0, 1, 2];
+  //food position
+  int foodPos = 55;
 
   @override
   Widget build(BuildContext context) {
@@ -38,8 +41,10 @@ class _HomePageState extends State<HomePage> {
               itemBuilder: (BuildContext context, int index) {
                 if (snakePos.contains(index)) {
                   return const SnakePixel();
+                } else if (foodPos == index) {
+                  return const FoodPixel();
                 } else {
-                  return BlankPixel();
+                  return const BlankPixel();
                 }
               },
             ),
