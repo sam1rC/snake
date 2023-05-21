@@ -27,10 +27,20 @@ class _HomePageState extends State<HomePage> {
   int foodPos = 55;
   //start game
   void startGame() {
-    Timer.periodic(Duration(milliseconds: 200), (timer) {
+    Timer.periodic(const Duration(milliseconds: 200), (timer) {
       setState(() {
         moveSnake();
-        eatFood();
+        if (gameOver()) {
+          timer.cancel();
+
+          showDialog(
+              context: context,
+              builder: (context) {
+                return AlertDialog(
+                  title: Text("Game Over!"),
+                );
+              });
+        }
       });
     });
   }
@@ -92,6 +102,18 @@ class _HomePageState extends State<HomePage> {
       //remove tail
       snakePos.removeAt(0);
     }
+  }
+
+  //game over
+  bool gameOver() {
+    //the game is over when the snake hits itself
+    List<int> snakeBody = snakePos.sublist(0, snakePos.length - 1);
+
+    if (snakeBody.contains(snakePos.last)) {
+      return true;
+    }
+
+    return false;
   }
 
   @override
