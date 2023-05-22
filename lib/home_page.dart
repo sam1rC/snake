@@ -19,6 +19,10 @@ class _HomePageState extends State<HomePage> {
   //grid dimensions
   int rowSize = 10;
   int totalNumberOfSquares = 100;
+
+  bool gameStarted = false;
+  //user score
+  int currentScore = 0;
   //snake position
   List<int> snakePos = [0, 1, 2];
   //snake direction is initially to the right
@@ -27,6 +31,7 @@ class _HomePageState extends State<HomePage> {
   int foodPos = 55;
   //start game
   void startGame() {
+    gameStarted = true;
     Timer.periodic(const Duration(milliseconds: 200), (timer) {
       setState(() {
         moveSnake();
@@ -35,9 +40,30 @@ class _HomePageState extends State<HomePage> {
 
           showDialog(
               context: context,
+              barrierDismissible: false,
               builder: (context) {
                 return AlertDialog(
-                  title: Text("Game Over!"),
+                  title: const Text("Game Over!"),
+                  content: Column(
+                    children: [
+                      Text("Tu puntuación fue $currentScore"),
+                      TextField(
+                        decoration:
+                            InputDecoration(hintText: "Registra tu nombre"),
+                      )
+                    ],
+                  ),
+                  actions: [
+                    MaterialButton(
+                      onPressed: () {
+                        submitScore();
+                        Navigator.pop(context);
+                        newGame();
+                      },
+                      color: Colors.pink,
+                      child: const Text("Enviar"),
+                    )
+                  ],
                 );
               });
         }
@@ -45,7 +71,20 @@ class _HomePageState extends State<HomePage> {
     });
   }
 
+  void submitScore() {}
+
+  void newGame() {
+    setState(() {
+      snakePos = [0, 1, 2];
+      foodPos = 55;
+      currentDirection = snake_Direction.RIGHT;
+      gameStarted = false;
+      currentScore = 0;
+    });
+  }
+
   void eatFood() {
+    currentScore += 1;
     //making sure the food is not where the snake is
     while (snakePos.contains(foodPos)) {
       foodPos = Random().nextInt(totalNumberOfSquares);
@@ -124,7 +163,24 @@ class _HomePageState extends State<HomePage> {
         children: [
           //high scores
           Expanded(
-            child: Container(),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                //user current score
+                Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    const Text("Puntuación actual"),
+                    Text(
+                      currentScore.toString(),
+                      style: TextStyle(fontSize: 36),
+                    ),
+                  ],
+                ),
+                //highscores
+                Text("Highscores...")
+              ],
+            ),
           ),
           //game grid
           Expanded(
@@ -170,8 +226,8 @@ class _HomePageState extends State<HomePage> {
           Expanded(
             child: Center(
               child: MaterialButton(
-                onPressed: startGame,
-                color: Colors.pink,
+                onPressed: gameStarted ? () {} : startGame,
+                color: gameStarted ? Colors.grey : Colors.pink,
                 child: const Text("Jugar"),
               ),
             ),
