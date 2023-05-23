@@ -5,6 +5,7 @@ import 'package:firebase_core/firebase_core.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
+    name: 'snake-game-5f4f0',
     options: const FirebaseOptions(
       apiKey: "AIzaSyA3sVxezcDuxTtUE0CMpYZG2JqD-gnCh9M",
       authDomain: "snake-game-5f4f0.firebaseapp.com",

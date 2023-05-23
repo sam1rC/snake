@@ -1,0 +1,18 @@
+com.example.snake.app-jetified-window-1.0.0-beta04-0 C:\Users\andre\.gradle\caches\transforms-3\003a22a5515e1f77f89701a46efbc2ec\transformed\jetified-window-1.0.0-beta04\res
+com.example.snake.app-jetified-firebase-common-20.3.2-1 C:\Users\andre\.gradle\caches\transforms-3\284fd5eeca4a29a0814ba444369e2acf\transformed\jetified-firebase-common-20.3.2\res
+com.example.snake.app-jetified-window-java-1.0.0-beta04-2 C:\Users\andre\.gradle\caches\transforms-3\3c0e35d493ccd3f2bb8b07f96b013b9c\transformed\jetified-window-java-1.0.0-beta04\res
+com.example.snake.app-jetified-play-services-basement-18.1.0-3 C:\Users\andre\.gradle\caches\transforms-3\5eaba1f028ac62aaabee71faac8d9308\transformed\jetified-play-services-basement-18.1.0\res
+com.example.snake.app-jetified-annotation-experimental-1.1.0-4 C:\Users\andre\.gradle\caches\transforms-3\717758e51a3aff0b90b2556f8994e808\transformed\jetified-annotation-experimental-1.1.0\res
+com.example.snake.app-core-1.6.0-5 C:\Users\andre\.gradle\caches\transforms-3\cf72013d765e0f69e97cd3b9cbb09800\transformed\core-1.6.0\res
+com.example.snake.app-jetified-play-services-base-18.0.1-6 C:\Users\andre\.gradle\caches\transforms-3\f253648b0be692c533908993735bbd2e\transformed\jetified-play-services-base-18.0.1\res
+com.example.snake.app-main-7 D:\Documentos U\repos\Snake\snake\android\app\src\main\res
+com.example.snake.app-release-8 D:\Documentos U\repos\Snake\snake\android\app\src\release\res
+com.example.snake.app-google-services-9 D:\Documentos U\repos\Snake\snake\build\app\generated\res\google-services\release
+com.example.snake.app-pngs-10 D:\Documentos U\repos\Snake\snake\build\app\generated\res\pngs\release
+com.example.snake.app-resValues-11 D:\Documentos U\repos\Snake\snake\build\app\generated\res\resValues\release
+com.example.snake.app-rs-12 D:\Documentos U\repos\Snake\snake\build\app\generated\res\rs\release
+com.example.snake.app-mergeReleaseResources-13 D:\Documentos U\repos\Snake\snake\build\app\intermediates\incremental\release\mergeReleaseResources\merged.dir
+com.example.snake.app-mergeReleaseResources-14 D:\Documentos U\repos\Snake\snake\build\app\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+com.example.snake.app-merged_res-15 D:\Documentos U\repos\Snake\snake\build\app\intermediates\merged_res\release
+com.example.snake.app-packaged_res-16 D:\Documentos U\repos\Snake\snake\build\cloud_firestore\intermediates\packaged_res\release
+com.example.snake.app-packaged_res-17 D:\Documentos U\repos\Snake\snake\build\firebase_core\intermediates\packaged_res\release

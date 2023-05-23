@@ -1,0 +1,4 @@
+#Tue May 23 11:55:45 COT 2023
+base.0=D\:\\Documentos U\\repos\\Snake\\snake\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
