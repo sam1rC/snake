@@ -1,7 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:snake/home_page.dart';
+import 'package:firebase_core/firebase_core.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: const FirebaseOptions(
+      apiKey: "AIzaSyA3sVxezcDuxTtUE0CMpYZG2JqD-gnCh9M",
+      authDomain: "snake-game-5f4f0.firebaseapp.com",
+      projectId: "snake-game-5f4f0",
+      storageBucket: "snake-game-5f4f0.appspot.com",
+      messagingSenderId: "964097324245",
+      appId: "1:964097324245:web:338bbb0c899fd97ff85e5c")
+  );
   runApp(const MyApp());
 }
 

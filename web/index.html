@@ -55,5 +55,25 @@
       });
     });
   </script>
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-app.js";
+    import { getFirestore } from "firebase/firestore";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyA3sVxezcDuxTtUE0CMpYZG2JqD-gnCh9M",
+      authDomain: "snake-game-5f4f0.firebaseapp.com",
+      projectId: "snake-game-5f4f0",
+      storageBucket: "snake-game-5f4f0.appspot.com",
+      messagingSenderId: "964097324245",
+      appId: "1:964097324245:web:338bbb0c899fd97ff85e5c"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+  </script>
 </body>
 </html>
