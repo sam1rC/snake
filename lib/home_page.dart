@@ -1,9 +1,11 @@
 import 'dart:async';
 import 'dart:math';
 
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:snake/blank_pixel.dart';
 import 'package:snake/food_pixel.dart';
+import 'package:snake/highscore_tile.dart';
 import 'package:snake/snake_pixel.dart';
 
 class HomePage extends StatefulWidget {
@@ -19,7 +21,10 @@ class _HomePageState extends State<HomePage> {
   //grid dimensions
   int rowSize = 10;
   int totalNumberOfSquares = 100;
+  
 
+  //game settings
+  final _nameController = TextEditingController();
   bool gameStarted = false;
   //user score
   int currentScore = 0;
@@ -29,6 +34,29 @@ class _HomePageState extends State<HomePage> {
   var currentDirection = snake_Direction.RIGHT;
   //food position
   int foodPos = 55;
+
+  //highscore List
+  List<String> highscore_DocIds = [];
+  late final Future? letsGetDocIds;
+
+  @override
+  void initState() {
+    letsGetDocIds = getDocId();
+    super.initState();
+    
+  }
+
+  Future getDocId() async {
+    await FirebaseFirestore.instance
+    .collection("highscores")
+    .orderBy("score", descending: true)
+    .limit(10)
+    .get()
+    .then((value) => value.docs.forEach((element) {
+      highscore_DocIds.add(element.reference.id);
+    }));
+  }
+
   //start game
   void startGame() {
     gameStarted = true;
@@ -48,6 +76,7 @@ class _HomePageState extends State<HomePage> {
                     children: [
                       Text("Tu puntuación fue $currentScore"),
                       TextField(
+                        controller: _nameController,
                         decoration:
                             InputDecoration(hintText: "Registra tu nombre"),
                       )
@@ -71,9 +100,21 @@ class _HomePageState extends State<HomePage> {
     });
   }
 
-  void submitScore() {}
+  void submitScore() {
+    //get acces to the collection
+    var database = FirebaseFirestore.instance;
 
-  void newGame() {
+    //add data to firebase
+    database.collection('highscores').add({
+      "name": _nameController.text,
+      "score": currentScore,
+    }
+    );
+  }
+
+  Future newGame() async {
+    highscore_DocIds = [];
+    await getDocId();
     setState(() {
       snakePos = [0, 1, 2];
       foodPos = 55;
@@ -173,18 +214,35 @@ class _HomePageState extends State<HomePage> {
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
                   //user current score
-                  Column(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      const Text("Puntuación actual"),
-                      Text(
-                        currentScore.toString(),
-                        style: TextStyle(fontSize: 36),
-                      ),
-                    ],
+                  Expanded(
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        const Text("Puntuación actual"),
+                        Text(
+                          currentScore.toString(),
+                          style: TextStyle(fontSize: 36),
+                        ),
+                      ],
+                    ),
                   ),
                   //highscores
-                  Text("Highscores...")
+                  Expanded(
+                    child: gameStarted ? Container() 
+                    : FutureBuilder(
+                      future: letsGetDocIds,
+                      builder: (context , snapshot){
+                        return ListView.builder(
+                          itemCount: highscore_DocIds.length,
+                          itemBuilder: (context, index) {
+                            return HighScoreTile(documentId: highscore_DocIds[index]);  
+                      },
+                      );
+                    }
+                    ),
+                  )
+
+                  
                 ],
               ),
             ),
