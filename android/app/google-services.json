@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "964097324245",
+    "project_id": "snake-game-5f4f0",
+    "storage_bucket": "snake-game-5f4f0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:964097324245:android:c6314c3555498eaff85e5c",
+        "android_client_info": {
+          "package_name": "com.example.snake"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "964097324245-d8ek5a93mgl8s6vnk55a8c79fumbsqtu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.snake",
+            "certificate_hash": "e8af28eb9549cfea86c8f69948a1f6950a941c84"
+          }
+        },
+        {
+          "client_id": "964097324245-ng3l99q1rsmt5tdjhqri9l4a90hoviu3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAC729d8zkqpxmNp6pzcecEpk9MFJNms3U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "964097324245-ng3l99q1rsmt5tdjhqri9l4a90hoviu3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
