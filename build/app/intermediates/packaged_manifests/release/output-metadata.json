@@ -4,7 +4,7 @@
     "type": "PACKAGED_MANIFESTS",
     "kind": "Directory"
   },
-  "applicationId": "com.example.snake",
+  "applicationId": "co.edu.upb.snake",
   "variantName": "release",
   "elements": [
     {

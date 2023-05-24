@@ -7,17 +7,17 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:964097324245:android:c6314c3555498eaff85e5c",
+        "mobilesdk_app_id": "1:964097324245:android:ad72c95a14cf6f2ef85e5c",
         "android_client_info": {
-          "package_name": "com.example.snake"
+          "package_name": "co.edu.upb.snake"
         }
       },
       "oauth_client": [
         {
-          "client_id": "964097324245-d8ek5a93mgl8s6vnk55a8c79fumbsqtu.apps.googleusercontent.com",
+          "client_id": "964097324245-2hf8jm525gubmvg8r9ih2lcmc2ofmiq9.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.snake",
+            "package_name": "co.edu.upb.snake",
             "certificate_hash": "e8af28eb9549cfea86c8f69948a1f6950a941c84"
           }
         },

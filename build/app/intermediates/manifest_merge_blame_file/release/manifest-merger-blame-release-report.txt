@@ -1,6 +1,6 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.example.snake"
+3    package="co.edu.upb.snake"
 4    android:versionCode="1"
 5    android:versionName="1.0.0" >
 6
@@ -124,7 +124,7 @@
 75-->[com.google.firebase:firebase-common:20.3.2] C:\Users\andre\.gradle\caches\transforms-3\284fd5eeca4a29a0814ba444369e2acf\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:25:9-30:39
 76            android:name="com.google.firebase.provider.FirebaseInitProvider"
 76-->[com.google.firebase:firebase-common:20.3.2] C:\Users\andre\.gradle\caches\transforms-3\284fd5eeca4a29a0814ba444369e2acf\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:26:13-77
-77            android:authorities="com.example.snake.firebaseinitprovider"
+77            android:authorities="co.edu.upb.snake.firebaseinitprovider"
 77-->[com.google.firebase:firebase-common:20.3.2] C:\Users\andre\.gradle\caches\transforms-3\284fd5eeca4a29a0814ba444369e2acf\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:27:13-72
 78            android:directBootAware="true"
 78-->[com.google.firebase:firebase-common:20.3.2] C:\Users\andre\.gradle\caches\transforms-3\284fd5eeca4a29a0814ba444369e2acf\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:28:13-43

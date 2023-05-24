@@ -2689,315 +2689,315 @@ Marking id:dark:2131034157 used because it matches string pool constant dark
 Marking string:google_app_id:2131361813 used because it matches string pool constant google_app_id
 Marking id:line1:2131034166 used because it matches string pool constant line
 Marking id:line3:2131034167 used because it matches string pool constant line
-@attr/activityAction : reachable=true
-@attr/activityName : reachable=true
-@attr/alpha : reachable=false
-@attr/alwaysExpand : reachable=false
-@attr/buttonSize : reachable=false
-@attr/circleCrop : reachable=false
-@attr/clearTop : reachable=false
-@attr/colorScheme : reachable=false
-@attr/finishPrimaryWithSecondary : reachable=false
-@attr/finishSecondaryWithPrimary : reachable=false
-@attr/font : reachable=false
-@attr/fontProviderAuthority : reachable=false
-@attr/fontProviderCerts : reachable=false
-@attr/fontProviderFetchStrategy : reachable=false
-@attr/fontProviderFetchTimeout : reachable=false
-@attr/fontProviderPackage : reachable=false
-@attr/fontProviderQuery : reachable=false
-@attr/fontProviderSystemFontFamily : reachable=false
-@attr/fontStyle : reachable=false
-@attr/fontVariationSettings : reachable=false
-@attr/fontWeight : reachable=false
-@attr/imageAspectRatio : reachable=true
-@attr/imageAspectRatioAdjust : reachable=true
-@attr/nestedScrollViewStyle : reachable=false
-@attr/placeholderActivityName : reachable=false
-@attr/primaryActivityName : reachable=true
-@attr/queryPatterns : reachable=true
-@attr/scopeUris : reachable=false
-@attr/secondaryActivityAction : reachable=true
-@attr/secondaryActivityName : reachable=true
-@attr/shortcutMatchRequired : reachable=true
-@attr/splitLayoutDirection : reachable=false
-@attr/splitMinSmallestWidth : reachable=false
-@attr/splitMinWidth : reachable=false
-@attr/splitRatio : reachable=false
-@attr/ttcIndex : reachable=false
-@color/androidx_core_ripple_material_light : reachable=true
-@color/androidx_core_secondary_text_default_material_light : reachable=true
-@color/common_google_signin_btn_text_dark : reachable=false
-    @color/common_google_signin_btn_text_dark_disabled
-    @color/common_google_signin_btn_text_dark_pressed
-    @color/common_google_signin_btn_text_dark_focused
-    @color/common_google_signin_btn_text_dark_default
-@color/common_google_signin_btn_text_dark_default : reachable=false
-@color/common_google_signin_btn_text_dark_disabled : reachable=false
-@color/common_google_signin_btn_text_dark_focused : reachable=false
-@color/common_google_signin_btn_text_dark_pressed : reachable=false
-@color/common_google_signin_btn_text_light : reachable=false
-    @color/common_google_signin_btn_text_light_disabled
-    @color/common_google_signin_btn_text_light_pressed
-    @color/common_google_signin_btn_text_light_focused
-    @color/common_google_signin_btn_text_light_default
-@color/common_google_signin_btn_text_light_default : reachable=false
-@color/common_google_signin_btn_text_light_disabled : reachable=false
-@color/common_google_signin_btn_text_light_focused : reachable=false
-@color/common_google_signin_btn_text_light_pressed : reachable=false
-@color/common_google_signin_btn_tint : reachable=false
-@color/notification_action_color_filter : reachable=true
-    @color/androidx_core_secondary_text_default_material_light
-@color/notification_icon_bg_color : reachable=true
-@dimen/compat_button_inset_horizontal_material : reachable=false
-@dimen/compat_button_inset_vertical_material : reachable=false
-@dimen/compat_button_padding_horizontal_material : reachable=false
-@dimen/compat_button_padding_vertical_material : reachable=false
-@dimen/compat_control_corner_material : reachable=false
-@dimen/compat_notification_large_icon_max_height : reachable=false
-@dimen/compat_notification_large_icon_max_width : reachable=false
-@dimen/notification_action_icon_size : reachable=true
-@dimen/notification_action_text_size : reachable=true
-@dimen/notification_big_circle_margin : reachable=true
-@dimen/notification_content_margin_start : reachable=true
-@dimen/notification_large_icon_height : reachable=true
-@dimen/notification_large_icon_width : reachable=true
-@dimen/notification_main_column_padding_top : reachable=true
-@dimen/notification_media_narrow_margin : reachable=true
-@dimen/notification_right_icon_size : reachable=true
-@dimen/notification_right_side_padding_top : reachable=true
-@dimen/notification_small_icon_background_padding : reachable=true
-@dimen/notification_small_icon_size_as_large : reachable=true
-@dimen/notification_subtext_size : reachable=true
-@dimen/notification_top_pad : reachable=true
-@dimen/notification_top_pad_large_text : reachable=true
-@drawable/common_full_open_on_phone : reachable=true
-@drawable/common_google_signin_btn_icon_dark : reachable=false
-    @drawable/common_google_signin_btn_icon_disabled
-    @drawable/common_google_signin_btn_icon_dark_focused
-    @drawable/common_google_signin_btn_icon_dark_normal
-@drawable/common_google_signin_btn_icon_dark_focused : reachable=false
-    @drawable/common_google_signin_btn_icon_dark_normal
-@drawable/common_google_signin_btn_icon_dark_normal : reachable=false
-    @drawable/common_google_signin_btn_icon_dark_normal_background
-    @drawable/googleg_standard_color_18
-@drawable/common_google_signin_btn_icon_dark_normal_background : reachable=false
-@drawable/common_google_signin_btn_icon_disabled : reachable=false
-    @drawable/googleg_disabled_color_18
-@drawable/common_google_signin_btn_icon_light : reachable=false
-    @drawable/common_google_signin_btn_icon_disabled
-    @drawable/common_google_signin_btn_icon_light_focused
-    @drawable/common_google_signin_btn_icon_light_normal
-@drawable/common_google_signin_btn_icon_light_focused : reachable=false
-    @drawable/common_google_signin_btn_icon_light_normal
-@drawable/common_google_signin_btn_icon_light_normal : reachable=false
-    @drawable/common_google_signin_btn_icon_light_normal_background
-    @drawable/googleg_standard_color_18
-@drawable/common_google_signin_btn_icon_light_normal_background : reachable=false
-@drawable/common_google_signin_btn_text_dark : reachable=false
-    @drawable/common_google_signin_btn_text_disabled
-    @drawable/common_google_signin_btn_text_dark_focused
-    @drawable/common_google_signin_btn_text_dark_normal
-@drawable/common_google_signin_btn_text_dark_focused : reachable=false
-    @drawable/common_google_signin_btn_text_dark_normal
-@drawable/common_google_signin_btn_text_dark_normal : reachable=false
-    @drawable/common_google_signin_btn_text_dark_normal_background
-    @drawable/googleg_standard_color_18
-@drawable/common_google_signin_btn_text_dark_normal_background : reachable=false
-@drawable/common_google_signin_btn_text_disabled : reachable=false
-    @drawable/googleg_disabled_color_18
-@drawable/common_google_signin_btn_text_light : reachable=false
-    @drawable/common_google_signin_btn_text_disabled
-    @drawable/common_google_signin_btn_text_light_focused
-    @drawable/common_google_signin_btn_text_light_normal
-@drawable/common_google_signin_btn_text_light_focused : reachable=false
-    @drawable/common_google_signin_btn_text_light_normal
-@drawable/common_google_signin_btn_text_light_normal : reachable=false
-    @drawable/common_google_signin_btn_text_light_normal_background
-    @drawable/googleg_standard_color_18
-@drawable/common_google_signin_btn_text_light_normal_background : reachable=false
-@drawable/googleg_disabled_color_18 : reachable=false
-@drawable/googleg_standard_color_18 : reachable=false
-@drawable/launch_background : reachable=false
-@drawable/notification_action_background : reachable=true
-    @color/androidx_core_ripple_material_light
-    @dimen/compat_button_inset_horizontal_material
-    @dimen/compat_button_inset_vertical_material
-    @dimen/compat_control_corner_material
-    @dimen/compat_button_padding_vertical_material
-    @dimen/compat_button_padding_horizontal_material
-@drawable/notification_bg : reachable=true
-    @drawable/notification_bg_normal_pressed
-    @drawable/notification_bg_normal
-@drawable/notification_bg_low : reachable=true
-    @drawable/notification_bg_low_pressed
-    @drawable/notification_bg_low_normal
-@drawable/notification_bg_low_normal : reachable=true
-@drawable/notification_bg_low_pressed : reachable=true
-@drawable/notification_bg_normal : reachable=true
-@drawable/notification_bg_normal_pressed : reachable=true
-@drawable/notification_icon_background : reachable=true
-    @color/notification_icon_bg_color
-@drawable/notification_template_icon_bg : reachable=true
-@drawable/notification_template_icon_low_bg : reachable=true
-@drawable/notification_tile_bg : reachable=true
-    @drawable/notify_panel_notification_icon_bg
-@drawable/notify_panel_notification_icon_bg : reachable=false
-@id/accessibility_action_clickable_span : reachable=true
-@id/accessibility_custom_action_0 : reachable=true
-@id/accessibility_custom_action_1 : reachable=true
-@id/accessibility_custom_action_10 : reachable=true
-@id/accessibility_custom_action_11 : reachable=true
-@id/accessibility_custom_action_12 : reachable=true
-@id/accessibility_custom_action_13 : reachable=true
-@id/accessibility_custom_action_14 : reachable=true
-@id/accessibility_custom_action_15 : reachable=true
-@id/accessibility_custom_action_16 : reachable=true
-@id/accessibility_custom_action_17 : reachable=true
-@id/accessibility_custom_action_18 : reachable=true
-@id/accessibility_custom_action_19 : reachable=true
-@id/accessibility_custom_action_2 : reachable=true
-@id/accessibility_custom_action_20 : reachable=true
-@id/accessibility_custom_action_21 : reachable=true
-@id/accessibility_custom_action_22 : reachable=true
-@id/accessibility_custom_action_23 : reachable=true
-@id/accessibility_custom_action_24 : reachable=true
-@id/accessibility_custom_action_25 : reachable=true
-@id/accessibility_custom_action_26 : reachable=true
-@id/accessibility_custom_action_27 : reachable=true
-@id/accessibility_custom_action_28 : reachable=true
-@id/accessibility_custom_action_29 : reachable=true
-@id/accessibility_custom_action_3 : reachable=true
-@id/accessibility_custom_action_30 : reachable=true
-@id/accessibility_custom_action_31 : reachable=true
-@id/accessibility_custom_action_4 : reachable=true
-@id/accessibility_custom_action_5 : reachable=true
-@id/accessibility_custom_action_6 : reachable=true
-@id/accessibility_custom_action_7 : reachable=true
-@id/accessibility_custom_action_8 : reachable=true
-@id/accessibility_custom_action_9 : reachable=true
-@id/action_container : reachable=true
-@id/action_divider : reachable=true
-@id/action_image : reachable=true
-@id/action_text : reachable=true
-@id/actions : reachable=true
-@id/adjust_height : reachable=false
-@id/adjust_width : reachable=false
-@id/androidx_window_activity_scope : reachable=true
-@id/async : reachable=false
-@id/auto : reachable=true
-@id/blocking : reachable=false
-@id/chronometer : reachable=false
-@id/dark : reachable=true
-@id/dialog_button : reachable=false
-@id/forever : reachable=false
-@id/icon : reachable=true
-@id/icon_group : reachable=true
-@id/icon_only : reachable=true
-@id/info : reachable=true
-@id/italic : reachable=false
-@id/light : reachable=true
-@id/line1 : reachable=true
-@id/line3 : reachable=true
-@id/locale : reachable=true
-@id/ltr : reachable=false
-@id/none : reachable=true
-@id/normal : reachable=false
-@id/notification_background : reachable=true
-@id/notification_main_column : reachable=true
-@id/notification_main_column_container : reachable=true
-@id/right_icon : reachable=false
-@id/right_side : reachable=false
-@id/rtl : reachable=false
-@id/standard : reachable=false
-@id/tag_accessibility_actions : reachable=false
-@id/tag_accessibility_clickable_spans : reachable=false
-@id/tag_accessibility_heading : reachable=false
-@id/tag_accessibility_pane_title : reachable=true
-@id/tag_on_apply_window_listener : reachable=false
-@id/tag_on_receive_content_listener : reachable=false
-@id/tag_on_receive_content_mime_types : reachable=false
-@id/tag_screen_reader_focusable : reachable=false
-@id/tag_state_description : reachable=false
-@id/tag_transition_group : reachable=false
-@id/tag_unhandled_key_event_manager : reachable=true
-@id/tag_unhandled_key_listeners : reachable=true
-@id/tag_window_insets_animation_callback : reachable=false
-@id/text : reachable=true
-@id/text2 : reachable=true
-@id/time : reachable=true
-@id/title : reachable=true
-@id/wide : reachable=false
-@integer/google_play_services_version : reachable=true
-@integer/status_bar_notification_info_maxnum : reachable=true
-@layout/custom_dialog : reachable=false
-@layout/notification_action : reachable=true
-    @style/Widget_Compat_NotificationActionContainer
-    @dimen/notification_action_icon_size
-    @style/Widget_Compat_NotificationActionText
-@layout/notification_action_tombstone : reachable=true
-    @style/Widget_Compat_NotificationActionContainer
-    @dimen/notification_action_icon_size
-    @style/Widget_Compat_NotificationActionText
-@layout/notification_template_custom_big : reachable=true
-    @layout/notification_template_icon_group
-    @dimen/notification_large_icon_width
-    @dimen/notification_large_icon_height
-    @dimen/notification_right_side_padding_top
-    @layout/notification_template_part_time
-    @layout/notification_template_part_chronometer
-    @style/TextAppearance_Compat_Notification_Info
-@layout/notification_template_icon_group : reachable=true
-    @dimen/notification_large_icon_width
-    @dimen/notification_large_icon_height
-    @dimen/notification_big_circle_margin
-    @dimen/notification_right_icon_size
-@layout/notification_template_part_chronometer : reachable=true
-    @style/TextAppearance_Compat_Notification_Time
-@layout/notification_template_part_time : reachable=true
-    @style/TextAppearance_Compat_Notification_Time
-@mipmap/ic_launcher : reachable=true
-@raw/firebase_common_keep : reachable=false
-@string/common_google_play_services_enable_button : reachable=true
-@string/common_google_play_services_enable_text : reachable=true
-@string/common_google_play_services_enable_title : reachable=true
-@string/common_google_play_services_install_button : reachable=true
-@string/common_google_play_services_install_text : reachable=true
-@string/common_google_play_services_install_title : reachable=true
-@string/common_google_play_services_notification_channel_name : reachable=true
-@string/common_google_play_services_notification_ticker : reachable=true
-@string/common_google_play_services_unknown_issue : reachable=true
-@string/common_google_play_services_unsupported_text : reachable=true
-@string/common_google_play_services_update_button : reachable=true
-@string/common_google_play_services_update_text : reachable=true
-@string/common_google_play_services_update_title : reachable=true
-@string/common_google_play_services_updating_text : reachable=true
-@string/common_google_play_services_wear_update_text : reachable=true
-@string/common_open_on_phone : reachable=true
-@string/common_signin_button_text : reachable=false
-@string/common_signin_button_text_long : reachable=false
-@string/default_web_client_id : reachable=false
-@string/gcm_defaultSenderId : reachable=true
-@string/google_api_key : reachable=true
-@string/google_app_id : reachable=true
-@string/google_crash_reporting_api_key : reachable=false
-@string/google_storage_bucket : reachable=true
-@string/project_id : reachable=true
-@string/status_bar_notification_info_overflow : reachable=true
-@style/LaunchTheme : reachable=true
-    @drawable/launch_background
-@style/NormalTheme : reachable=true
-@style/TextAppearance_Compat_Notification : reachable=false
-@style/TextAppearance_Compat_Notification_Info : reachable=false
-@style/TextAppearance_Compat_Notification_Line2 : reachable=false
-    @style/TextAppearance_Compat_Notification_Info
-@style/TextAppearance_Compat_Notification_Time : reachable=false
-@style/TextAppearance_Compat_Notification_Title : reachable=false
-@style/Widget_Compat_NotificationActionContainer : reachable=false
-    @drawable/notification_action_background
-@style/Widget_Compat_NotificationActionText : reachable=false
-    @color/androidx_core_secondary_text_default_material_light
-    @dimen/notification_action_text_size
+@co.edu.upb.snake:attr/activityAction : reachable=true
+@co.edu.upb.snake:attr/activityName : reachable=true
+@co.edu.upb.snake:attr/alpha : reachable=false
+@co.edu.upb.snake:attr/alwaysExpand : reachable=false
+@co.edu.upb.snake:attr/buttonSize : reachable=false
+@co.edu.upb.snake:attr/circleCrop : reachable=false
+@co.edu.upb.snake:attr/clearTop : reachable=false
+@co.edu.upb.snake:attr/colorScheme : reachable=false
+@co.edu.upb.snake:attr/finishPrimaryWithSecondary : reachable=false
+@co.edu.upb.snake:attr/finishSecondaryWithPrimary : reachable=false
+@co.edu.upb.snake:attr/font : reachable=false
+@co.edu.upb.snake:attr/fontProviderAuthority : reachable=false
+@co.edu.upb.snake:attr/fontProviderCerts : reachable=false
+@co.edu.upb.snake:attr/fontProviderFetchStrategy : reachable=false
+@co.edu.upb.snake:attr/fontProviderFetchTimeout : reachable=false
+@co.edu.upb.snake:attr/fontProviderPackage : reachable=false
+@co.edu.upb.snake:attr/fontProviderQuery : reachable=false
+@co.edu.upb.snake:attr/fontProviderSystemFontFamily : reachable=false
+@co.edu.upb.snake:attr/fontStyle : reachable=false
+@co.edu.upb.snake:attr/fontVariationSettings : reachable=false
+@co.edu.upb.snake:attr/fontWeight : reachable=false
+@co.edu.upb.snake:attr/imageAspectRatio : reachable=true
+@co.edu.upb.snake:attr/imageAspectRatioAdjust : reachable=true
+@co.edu.upb.snake:attr/nestedScrollViewStyle : reachable=false
+@co.edu.upb.snake:attr/placeholderActivityName : reachable=false
+@co.edu.upb.snake:attr/primaryActivityName : reachable=true
+@co.edu.upb.snake:attr/queryPatterns : reachable=true
+@co.edu.upb.snake:attr/scopeUris : reachable=false
+@co.edu.upb.snake:attr/secondaryActivityAction : reachable=true
+@co.edu.upb.snake:attr/secondaryActivityName : reachable=true
+@co.edu.upb.snake:attr/shortcutMatchRequired : reachable=true
+@co.edu.upb.snake:attr/splitLayoutDirection : reachable=false
+@co.edu.upb.snake:attr/splitMinSmallestWidth : reachable=false
+@co.edu.upb.snake:attr/splitMinWidth : reachable=false
+@co.edu.upb.snake:attr/splitRatio : reachable=false
+@co.edu.upb.snake:attr/ttcIndex : reachable=false
+@co.edu.upb.snake:color/androidx_core_ripple_material_light : reachable=true
+@co.edu.upb.snake:color/androidx_core_secondary_text_default_material_light : reachable=true
+@co.edu.upb.snake:color/common_google_signin_btn_text_dark : reachable=false
+    @co.edu.upb.snake:color/common_google_signin_btn_text_dark_disabled
+    @co.edu.upb.snake:color/common_google_signin_btn_text_dark_pressed
+    @co.edu.upb.snake:color/common_google_signin_btn_text_dark_focused
+    @co.edu.upb.snake:color/common_google_signin_btn_text_dark_default
+@co.edu.upb.snake:color/common_google_signin_btn_text_dark_default : reachable=false
+@co.edu.upb.snake:color/common_google_signin_btn_text_dark_disabled : reachable=false
+@co.edu.upb.snake:color/common_google_signin_btn_text_dark_focused : reachable=false
+@co.edu.upb.snake:color/common_google_signin_btn_text_dark_pressed : reachable=false
+@co.edu.upb.snake:color/common_google_signin_btn_text_light : reachable=false
+    @co.edu.upb.snake:color/common_google_signin_btn_text_light_disabled
+    @co.edu.upb.snake:color/common_google_signin_btn_text_light_pressed
+    @co.edu.upb.snake:color/common_google_signin_btn_text_light_focused
+    @co.edu.upb.snake:color/common_google_signin_btn_text_light_default
+@co.edu.upb.snake:color/common_google_signin_btn_text_light_default : reachable=false
+@co.edu.upb.snake:color/common_google_signin_btn_text_light_disabled : reachable=false
+@co.edu.upb.snake:color/common_google_signin_btn_text_light_focused : reachable=false
+@co.edu.upb.snake:color/common_google_signin_btn_text_light_pressed : reachable=false
+@co.edu.upb.snake:color/common_google_signin_btn_tint : reachable=false
+@co.edu.upb.snake:color/notification_action_color_filter : reachable=true
+    @co.edu.upb.snake:color/androidx_core_secondary_text_default_material_light
+@co.edu.upb.snake:color/notification_icon_bg_color : reachable=true
+@co.edu.upb.snake:dimen/compat_button_inset_horizontal_material : reachable=false
+@co.edu.upb.snake:dimen/compat_button_inset_vertical_material : reachable=false
+@co.edu.upb.snake:dimen/compat_button_padding_horizontal_material : reachable=false
+@co.edu.upb.snake:dimen/compat_button_padding_vertical_material : reachable=false
+@co.edu.upb.snake:dimen/compat_control_corner_material : reachable=false
+@co.edu.upb.snake:dimen/compat_notification_large_icon_max_height : reachable=false
+@co.edu.upb.snake:dimen/compat_notification_large_icon_max_width : reachable=false
+@co.edu.upb.snake:dimen/notification_action_icon_size : reachable=true
+@co.edu.upb.snake:dimen/notification_action_text_size : reachable=true
+@co.edu.upb.snake:dimen/notification_big_circle_margin : reachable=true
+@co.edu.upb.snake:dimen/notification_content_margin_start : reachable=true
+@co.edu.upb.snake:dimen/notification_large_icon_height : reachable=true
+@co.edu.upb.snake:dimen/notification_large_icon_width : reachable=true
+@co.edu.upb.snake:dimen/notification_main_column_padding_top : reachable=true
+@co.edu.upb.snake:dimen/notification_media_narrow_margin : reachable=true
+@co.edu.upb.snake:dimen/notification_right_icon_size : reachable=true
+@co.edu.upb.snake:dimen/notification_right_side_padding_top : reachable=true
+@co.edu.upb.snake:dimen/notification_small_icon_background_padding : reachable=true
+@co.edu.upb.snake:dimen/notification_small_icon_size_as_large : reachable=true
+@co.edu.upb.snake:dimen/notification_subtext_size : reachable=true
+@co.edu.upb.snake:dimen/notification_top_pad : reachable=true
+@co.edu.upb.snake:dimen/notification_top_pad_large_text : reachable=true
+@co.edu.upb.snake:drawable/common_full_open_on_phone : reachable=true
+@co.edu.upb.snake:drawable/common_google_signin_btn_icon_dark : reachable=false
+    @co.edu.upb.snake:drawable/common_google_signin_btn_icon_disabled
+    @co.edu.upb.snake:drawable/common_google_signin_btn_icon_dark_focused
+    @co.edu.upb.snake:drawable/common_google_signin_btn_icon_dark_normal
+@co.edu.upb.snake:drawable/common_google_signin_btn_icon_dark_focused : reachable=false
+    @co.edu.upb.snake:drawable/common_google_signin_btn_icon_dark_normal
+@co.edu.upb.snake:drawable/common_google_signin_btn_icon_dark_normal : reachable=false
+    @co.edu.upb.snake:drawable/common_google_signin_btn_icon_dark_normal_background
+    @co.edu.upb.snake:drawable/googleg_standard_color_18
+@co.edu.upb.snake:drawable/common_google_signin_btn_icon_dark_normal_background : reachable=false
+@co.edu.upb.snake:drawable/common_google_signin_btn_icon_disabled : reachable=false
+    @co.edu.upb.snake:drawable/googleg_disabled_color_18
+@co.edu.upb.snake:drawable/common_google_signin_btn_icon_light : reachable=false
+    @co.edu.upb.snake:drawable/common_google_signin_btn_icon_disabled
+    @co.edu.upb.snake:drawable/common_google_signin_btn_icon_light_focused
+    @co.edu.upb.snake:drawable/common_google_signin_btn_icon_light_normal
+@co.edu.upb.snake:drawable/common_google_signin_btn_icon_light_focused : reachable=false
+    @co.edu.upb.snake:drawable/common_google_signin_btn_icon_light_normal
+@co.edu.upb.snake:drawable/common_google_signin_btn_icon_light_normal : reachable=false
+    @co.edu.upb.snake:drawable/common_google_signin_btn_icon_light_normal_background
+    @co.edu.upb.snake:drawable/googleg_standard_color_18
+@co.edu.upb.snake:drawable/common_google_signin_btn_icon_light_normal_background : reachable=false
+@co.edu.upb.snake:drawable/common_google_signin_btn_text_dark : reachable=false
+    @co.edu.upb.snake:drawable/common_google_signin_btn_text_disabled
+    @co.edu.upb.snake:drawable/common_google_signin_btn_text_dark_focused
+    @co.edu.upb.snake:drawable/common_google_signin_btn_text_dark_normal
+@co.edu.upb.snake:drawable/common_google_signin_btn_text_dark_focused : reachable=false
+    @co.edu.upb.snake:drawable/common_google_signin_btn_text_dark_normal
+@co.edu.upb.snake:drawable/common_google_signin_btn_text_dark_normal : reachable=false
+    @co.edu.upb.snake:drawable/common_google_signin_btn_text_dark_normal_background
+    @co.edu.upb.snake:drawable/googleg_standard_color_18
+@co.edu.upb.snake:drawable/common_google_signin_btn_text_dark_normal_background : reachable=false
+@co.edu.upb.snake:drawable/common_google_signin_btn_text_disabled : reachable=false
+    @co.edu.upb.snake:drawable/googleg_disabled_color_18
+@co.edu.upb.snake:drawable/common_google_signin_btn_text_light : reachable=false
+    @co.edu.upb.snake:drawable/common_google_signin_btn_text_disabled
+    @co.edu.upb.snake:drawable/common_google_signin_btn_text_light_focused
+    @co.edu.upb.snake:drawable/common_google_signin_btn_text_light_normal
+@co.edu.upb.snake:drawable/common_google_signin_btn_text_light_focused : reachable=false
+    @co.edu.upb.snake:drawable/common_google_signin_btn_text_light_normal
+@co.edu.upb.snake:drawable/common_google_signin_btn_text_light_normal : reachable=false
+    @co.edu.upb.snake:drawable/common_google_signin_btn_text_light_normal_background
+    @co.edu.upb.snake:drawable/googleg_standard_color_18
+@co.edu.upb.snake:drawable/common_google_signin_btn_text_light_normal_background : reachable=false
+@co.edu.upb.snake:drawable/googleg_disabled_color_18 : reachable=false
+@co.edu.upb.snake:drawable/googleg_standard_color_18 : reachable=false
+@co.edu.upb.snake:drawable/launch_background : reachable=false
+@co.edu.upb.snake:drawable/notification_action_background : reachable=true
+    @co.edu.upb.snake:color/androidx_core_ripple_material_light
+    @co.edu.upb.snake:dimen/compat_button_inset_horizontal_material
+    @co.edu.upb.snake:dimen/compat_button_inset_vertical_material
+    @co.edu.upb.snake:dimen/compat_control_corner_material
+    @co.edu.upb.snake:dimen/compat_button_padding_vertical_material
+    @co.edu.upb.snake:dimen/compat_button_padding_horizontal_material
+@co.edu.upb.snake:drawable/notification_bg : reachable=true
+    @co.edu.upb.snake:drawable/notification_bg_normal_pressed
+    @co.edu.upb.snake:drawable/notification_bg_normal
+@co.edu.upb.snake:drawable/notification_bg_low : reachable=true
+    @co.edu.upb.snake:drawable/notification_bg_low_pressed
+    @co.edu.upb.snake:drawable/notification_bg_low_normal
+@co.edu.upb.snake:drawable/notification_bg_low_normal : reachable=true
+@co.edu.upb.snake:drawable/notification_bg_low_pressed : reachable=true
+@co.edu.upb.snake:drawable/notification_bg_normal : reachable=true
+@co.edu.upb.snake:drawable/notification_bg_normal_pressed : reachable=true
+@co.edu.upb.snake:drawable/notification_icon_background : reachable=true
+    @co.edu.upb.snake:color/notification_icon_bg_color
+@co.edu.upb.snake:drawable/notification_template_icon_bg : reachable=true
+@co.edu.upb.snake:drawable/notification_template_icon_low_bg : reachable=true
+@co.edu.upb.snake:drawable/notification_tile_bg : reachable=true
+    @co.edu.upb.snake:drawable/notify_panel_notification_icon_bg
+@co.edu.upb.snake:drawable/notify_panel_notification_icon_bg : reachable=false
+@co.edu.upb.snake:id/accessibility_action_clickable_span : reachable=true
+@co.edu.upb.snake:id/accessibility_custom_action_0 : reachable=true
+@co.edu.upb.snake:id/accessibility_custom_action_1 : reachable=true
+@co.edu.upb.snake:id/accessibility_custom_action_10 : reachable=true
+@co.edu.upb.snake:id/accessibility_custom_action_11 : reachable=true
+@co.edu.upb.snake:id/accessibility_custom_action_12 : reachable=true
+@co.edu.upb.snake:id/accessibility_custom_action_13 : reachable=true
+@co.edu.upb.snake:id/accessibility_custom_action_14 : reachable=true
+@co.edu.upb.snake:id/accessibility_custom_action_15 : reachable=true
+@co.edu.upb.snake:id/accessibility_custom_action_16 : reachable=true
+@co.edu.upb.snake:id/accessibility_custom_action_17 : reachable=true
+@co.edu.upb.snake:id/accessibility_custom_action_18 : reachable=true
+@co.edu.upb.snake:id/accessibility_custom_action_19 : reachable=true
+@co.edu.upb.snake:id/accessibility_custom_action_2 : reachable=true
+@co.edu.upb.snake:id/accessibility_custom_action_20 : reachable=true
+@co.edu.upb.snake:id/accessibility_custom_action_21 : reachable=true
+@co.edu.upb.snake:id/accessibility_custom_action_22 : reachable=true
+@co.edu.upb.snake:id/accessibility_custom_action_23 : reachable=true
+@co.edu.upb.snake:id/accessibility_custom_action_24 : reachable=true
+@co.edu.upb.snake:id/accessibility_custom_action_25 : reachable=true
+@co.edu.upb.snake:id/accessibility_custom_action_26 : reachable=true
+@co.edu.upb.snake:id/accessibility_custom_action_27 : reachable=true
+@co.edu.upb.snake:id/accessibility_custom_action_28 : reachable=true
+@co.edu.upb.snake:id/accessibility_custom_action_29 : reachable=true
+@co.edu.upb.snake:id/accessibility_custom_action_3 : reachable=true
+@co.edu.upb.snake:id/accessibility_custom_action_30 : reachable=true
+@co.edu.upb.snake:id/accessibility_custom_action_31 : reachable=true
+@co.edu.upb.snake:id/accessibility_custom_action_4 : reachable=true
+@co.edu.upb.snake:id/accessibility_custom_action_5 : reachable=true
+@co.edu.upb.snake:id/accessibility_custom_action_6 : reachable=true
+@co.edu.upb.snake:id/accessibility_custom_action_7 : reachable=true
+@co.edu.upb.snake:id/accessibility_custom_action_8 : reachable=true
+@co.edu.upb.snake:id/accessibility_custom_action_9 : reachable=true
+@co.edu.upb.snake:id/action_container : reachable=true
+@co.edu.upb.snake:id/action_divider : reachable=true
+@co.edu.upb.snake:id/action_image : reachable=true
+@co.edu.upb.snake:id/action_text : reachable=true
+@co.edu.upb.snake:id/actions : reachable=true
+@co.edu.upb.snake:id/adjust_height : reachable=false
+@co.edu.upb.snake:id/adjust_width : reachable=false
+@co.edu.upb.snake:id/androidx_window_activity_scope : reachable=true
+@co.edu.upb.snake:id/async : reachable=false
+@co.edu.upb.snake:id/auto : reachable=true
+@co.edu.upb.snake:id/blocking : reachable=false
+@co.edu.upb.snake:id/chronometer : reachable=false
+@co.edu.upb.snake:id/dark : reachable=true
+@co.edu.upb.snake:id/dialog_button : reachable=false
+@co.edu.upb.snake:id/forever : reachable=false
+@co.edu.upb.snake:id/icon : reachable=true
+@co.edu.upb.snake:id/icon_group : reachable=true
+@co.edu.upb.snake:id/icon_only : reachable=true
+@co.edu.upb.snake:id/info : reachable=true
+@co.edu.upb.snake:id/italic : reachable=false
+@co.edu.upb.snake:id/light : reachable=true
+@co.edu.upb.snake:id/line1 : reachable=true
+@co.edu.upb.snake:id/line3 : reachable=true
+@co.edu.upb.snake:id/locale : reachable=true
+@co.edu.upb.snake:id/ltr : reachable=false
+@co.edu.upb.snake:id/none : reachable=true
+@co.edu.upb.snake:id/normal : reachable=false
+@co.edu.upb.snake:id/notification_background : reachable=true
+@co.edu.upb.snake:id/notification_main_column : reachable=true
+@co.edu.upb.snake:id/notification_main_column_container : reachable=true
+@co.edu.upb.snake:id/right_icon : reachable=false
+@co.edu.upb.snake:id/right_side : reachable=false
+@co.edu.upb.snake:id/rtl : reachable=false
+@co.edu.upb.snake:id/standard : reachable=false
+@co.edu.upb.snake:id/tag_accessibility_actions : reachable=false
+@co.edu.upb.snake:id/tag_accessibility_clickable_spans : reachable=false
+@co.edu.upb.snake:id/tag_accessibility_heading : reachable=false
+@co.edu.upb.snake:id/tag_accessibility_pane_title : reachable=true
+@co.edu.upb.snake:id/tag_on_apply_window_listener : reachable=false
+@co.edu.upb.snake:id/tag_on_receive_content_listener : reachable=false
+@co.edu.upb.snake:id/tag_on_receive_content_mime_types : reachable=false
+@co.edu.upb.snake:id/tag_screen_reader_focusable : reachable=false
+@co.edu.upb.snake:id/tag_state_description : reachable=false
+@co.edu.upb.snake:id/tag_transition_group : reachable=false
+@co.edu.upb.snake:id/tag_unhandled_key_event_manager : reachable=true
+@co.edu.upb.snake:id/tag_unhandled_key_listeners : reachable=true
+@co.edu.upb.snake:id/tag_window_insets_animation_callback : reachable=false
+@co.edu.upb.snake:id/text : reachable=true
+@co.edu.upb.snake:id/text2 : reachable=true
+@co.edu.upb.snake:id/time : reachable=true
+@co.edu.upb.snake:id/title : reachable=true
+@co.edu.upb.snake:id/wide : reachable=false
+@co.edu.upb.snake:integer/google_play_services_version : reachable=true
+@co.edu.upb.snake:integer/status_bar_notification_info_maxnum : reachable=true
+@co.edu.upb.snake:layout/custom_dialog : reachable=false
+@co.edu.upb.snake:layout/notification_action : reachable=true
+    @co.edu.upb.snake:style/Widget_Compat_NotificationActionContainer
+    @co.edu.upb.snake:dimen/notification_action_icon_size
+    @co.edu.upb.snake:style/Widget_Compat_NotificationActionText
+@co.edu.upb.snake:layout/notification_action_tombstone : reachable=true
+    @co.edu.upb.snake:style/Widget_Compat_NotificationActionContainer
+    @co.edu.upb.snake:dimen/notification_action_icon_size
+    @co.edu.upb.snake:style/Widget_Compat_NotificationActionText
+@co.edu.upb.snake:layout/notification_template_custom_big : reachable=true
+    @co.edu.upb.snake:layout/notification_template_icon_group
+    @co.edu.upb.snake:dimen/notification_large_icon_width
+    @co.edu.upb.snake:dimen/notification_large_icon_height
+    @co.edu.upb.snake:dimen/notification_right_side_padding_top
+    @co.edu.upb.snake:layout/notification_template_part_time
+    @co.edu.upb.snake:layout/notification_template_part_chronometer
+    @co.edu.upb.snake:style/TextAppearance_Compat_Notification_Info
+@co.edu.upb.snake:layout/notification_template_icon_group : reachable=true
+    @co.edu.upb.snake:dimen/notification_large_icon_width
+    @co.edu.upb.snake:dimen/notification_large_icon_height
+    @co.edu.upb.snake:dimen/notification_big_circle_margin
+    @co.edu.upb.snake:dimen/notification_right_icon_size
+@co.edu.upb.snake:layout/notification_template_part_chronometer : reachable=true
+    @co.edu.upb.snake:style/TextAppearance_Compat_Notification_Time
+@co.edu.upb.snake:layout/notification_template_part_time : reachable=true
+    @co.edu.upb.snake:style/TextAppearance_Compat_Notification_Time
+@co.edu.upb.snake:mipmap/ic_launcher : reachable=true
+@co.edu.upb.snake:raw/firebase_common_keep : reachable=false
+@co.edu.upb.snake:string/common_google_play_services_enable_button : reachable=true
+@co.edu.upb.snake:string/common_google_play_services_enable_text : reachable=true
+@co.edu.upb.snake:string/common_google_play_services_enable_title : reachable=true
+@co.edu.upb.snake:string/common_google_play_services_install_button : reachable=true
+@co.edu.upb.snake:string/common_google_play_services_install_text : reachable=true
+@co.edu.upb.snake:string/common_google_play_services_install_title : reachable=true
+@co.edu.upb.snake:string/common_google_play_services_notification_channel_name : reachable=true
+@co.edu.upb.snake:string/common_google_play_services_notification_ticker : reachable=true
+@co.edu.upb.snake:string/common_google_play_services_unknown_issue : reachable=true
+@co.edu.upb.snake:string/common_google_play_services_unsupported_text : reachable=true
+@co.edu.upb.snake:string/common_google_play_services_update_button : reachable=true
+@co.edu.upb.snake:string/common_google_play_services_update_text : reachable=true
+@co.edu.upb.snake:string/common_google_play_services_update_title : reachable=true
+@co.edu.upb.snake:string/common_google_play_services_updating_text : reachable=true
+@co.edu.upb.snake:string/common_google_play_services_wear_update_text : reachable=true
+@co.edu.upb.snake:string/common_open_on_phone : reachable=true
+@co.edu.upb.snake:string/common_signin_button_text : reachable=false
+@co.edu.upb.snake:string/common_signin_button_text_long : reachable=false
+@co.edu.upb.snake:string/default_web_client_id : reachable=false
+@co.edu.upb.snake:string/gcm_defaultSenderId : reachable=true
+@co.edu.upb.snake:string/google_api_key : reachable=true
+@co.edu.upb.snake:string/google_app_id : reachable=true
+@co.edu.upb.snake:string/google_crash_reporting_api_key : reachable=false
+@co.edu.upb.snake:string/google_storage_bucket : reachable=true
+@co.edu.upb.snake:string/project_id : reachable=true
+@co.edu.upb.snake:string/status_bar_notification_info_overflow : reachable=true
+@co.edu.upb.snake:style/LaunchTheme : reachable=true
+    @co.edu.upb.snake:drawable/launch_background
+@co.edu.upb.snake:style/NormalTheme : reachable=true
+@co.edu.upb.snake:style/TextAppearance_Compat_Notification : reachable=false
+@co.edu.upb.snake:style/TextAppearance_Compat_Notification_Info : reachable=false
+@co.edu.upb.snake:style/TextAppearance_Compat_Notification_Line2 : reachable=false
+    @co.edu.upb.snake:style/TextAppearance_Compat_Notification_Info
+@co.edu.upb.snake:style/TextAppearance_Compat_Notification_Time : reachable=false
+@co.edu.upb.snake:style/TextAppearance_Compat_Notification_Title : reachable=false
+@co.edu.upb.snake:style/Widget_Compat_NotificationActionContainer : reachable=false
+    @co.edu.upb.snake:drawable/notification_action_background
+@co.edu.upb.snake:style/Widget_Compat_NotificationActionText : reachable=false
+    @co.edu.upb.snake:color/androidx_core_secondary_text_default_material_light
+    @co.edu.upb.snake:dimen/notification_action_text_size
 
 The root reachable resources are:
  attr:activityAction:2130771968
@@ -3133,46 +3133,46 @@ The root reachable resources are:
  string:status_bar_notification_info_overflow:2131361817
  style:LaunchTheme:2131427328
  style:NormalTheme:2131427329
-Skipped unused resource res/color/common_google_signin_btn_text_dark.xml: 1105 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/color/common_google_signin_btn_text_light.xml: 1113 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/color/common_google_signin_btn_tint.xml: 409 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/common_google_signin_btn_icon_dark.xml: 844 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/common_google_signin_btn_icon_dark_focused.xml: 1017 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/common_google_signin_btn_icon_dark_normal.xml: 567 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/common_google_signin_btn_icon_disabled.xml: 1261 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/common_google_signin_btn_icon_light.xml: 848 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/common_google_signin_btn_icon_light_focused.xml: 1019 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/common_google_signin_btn_icon_light_normal.xml: 569 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/common_google_signin_btn_text_dark.xml: 844 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/common_google_signin_btn_text_dark_focused.xml: 1017 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/common_google_signin_btn_text_dark_normal.xml: 659 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/common_google_signin_btn_text_disabled.xml: 1355 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/common_google_signin_btn_text_light.xml: 848 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/common_google_signin_btn_text_light_focused.xml: 1019 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/common_google_signin_btn_text_light_normal.xml: 661 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable-mdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png: 610 bytes (replaced with small dummy file of size 77 bytes)
-Skipped unused resource res/drawable-mdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png: 500 bytes (replaced with small dummy file of size 77 bytes)
-Skipped unused resource res/drawable-mdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png: 615 bytes (replaced with small dummy file of size 77 bytes)
-Skipped unused resource res/drawable-mdpi-v4/common_google_signin_btn_text_light_normal_background.9.png: 465 bytes (replaced with small dummy file of size 77 bytes)
-Skipped unused resource res/drawable-mdpi-v4/googleg_disabled_color_18.png: 281 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-mdpi-v4/googleg_standard_color_18.png: 562 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-hdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png: 897 bytes (replaced with small dummy file of size 77 bytes)
-Skipped unused resource res/drawable-hdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png: 683 bytes (replaced with small dummy file of size 77 bytes)
-Skipped unused resource res/drawable-hdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png: 960 bytes (replaced with small dummy file of size 77 bytes)
-Skipped unused resource res/drawable-hdpi-v4/common_google_signin_btn_text_light_normal_background.9.png: 694 bytes (replaced with small dummy file of size 77 bytes)
-Skipped unused resource res/drawable-hdpi-v4/googleg_disabled_color_18.png: 410 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-hdpi-v4/googleg_standard_color_18.png: 808 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-xhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png: 1032 bytes (replaced with small dummy file of size 77 bytes)
-Skipped unused resource res/drawable-xhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png: 776 bytes (replaced with small dummy file of size 77 bytes)
-Skipped unused resource res/drawable-xhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png: 1086 bytes (replaced with small dummy file of size 77 bytes)
-Skipped unused resource res/drawable-xhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png: 808 bytes (replaced with small dummy file of size 77 bytes)
-Skipped unused resource res/drawable-xhdpi-v4/googleg_disabled_color_18.png: 516 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-xhdpi-v4/googleg_standard_color_18.png: 982 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png: 1510 bytes (replaced with small dummy file of size 77 bytes)
-Skipped unused resource res/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png: 1138 bytes (replaced with small dummy file of size 77 bytes)
-Skipped unused resource res/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png: 1638 bytes (replaced with small dummy file of size 77 bytes)
-Skipped unused resource res/drawable-xxhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png: 1255 bytes (replaced with small dummy file of size 77 bytes)
-Skipped unused resource res/drawable-xxhdpi-v4/googleg_disabled_color_18.png: 727 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-xxhdpi-v4/googleg_standard_color_18.png: 1441 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/layout/custom_dialog.xml: 828 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/raw/firebase_common_keep.xml: 290 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource base/res/color/common_google_signin_btn_text_dark.xml: 1105 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource base/res/color/common_google_signin_btn_text_light.xml: 1113 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource base/res/color/common_google_signin_btn_tint.xml: 409 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource base/res/drawable/common_google_signin_btn_icon_dark.xml: 844 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource base/res/drawable/common_google_signin_btn_icon_dark_focused.xml: 1017 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource base/res/drawable/common_google_signin_btn_icon_dark_normal.xml: 567 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource base/res/drawable/common_google_signin_btn_icon_disabled.xml: 1261 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource base/res/drawable/common_google_signin_btn_icon_light.xml: 848 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource base/res/drawable/common_google_signin_btn_icon_light_focused.xml: 1019 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource base/res/drawable/common_google_signin_btn_icon_light_normal.xml: 569 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource base/res/drawable/common_google_signin_btn_text_dark.xml: 844 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource base/res/drawable/common_google_signin_btn_text_dark_focused.xml: 1017 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource base/res/drawable/common_google_signin_btn_text_dark_normal.xml: 659 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource base/res/drawable/common_google_signin_btn_text_disabled.xml: 1355 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource base/res/drawable/common_google_signin_btn_text_light.xml: 848 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource base/res/drawable/common_google_signin_btn_text_light_focused.xml: 1019 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource base/res/drawable/common_google_signin_btn_text_light_normal.xml: 661 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource base/res/drawable-mdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png: 610 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource base/res/drawable-mdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png: 500 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource base/res/drawable-mdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png: 615 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource base/res/drawable-mdpi-v4/common_google_signin_btn_text_light_normal_background.9.png: 465 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource base/res/drawable-mdpi-v4/googleg_disabled_color_18.png: 281 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource base/res/drawable-mdpi-v4/googleg_standard_color_18.png: 562 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource base/res/drawable-hdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png: 897 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource base/res/drawable-hdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png: 683 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource base/res/drawable-hdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png: 960 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource base/res/drawable-hdpi-v4/common_google_signin_btn_text_light_normal_background.9.png: 694 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource base/res/drawable-hdpi-v4/googleg_disabled_color_18.png: 410 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource base/res/drawable-hdpi-v4/googleg_standard_color_18.png: 808 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource base/res/drawable-xhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png: 1032 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource base/res/drawable-xhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png: 776 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource base/res/drawable-xhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png: 1086 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource base/res/drawable-xhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png: 808 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource base/res/drawable-xhdpi-v4/googleg_disabled_color_18.png: 516 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource base/res/drawable-xhdpi-v4/googleg_standard_color_18.png: 982 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource base/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png: 1510 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource base/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png: 1138 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource base/res/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png: 1638 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource base/res/drawable-xxhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png: 1255 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource base/res/drawable-xxhdpi-v4/googleg_disabled_color_18.png: 727 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource base/res/drawable-xxhdpi-v4/googleg_standard_color_18.png: 1441 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource base/res/layout/custom_dialog.xml: 828 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource base/res/raw/firebase_common_keep.xml: 290 bytes (replaced with small dummy file of size 9 bytes)
